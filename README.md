@@ -4,11 +4,17 @@ Capture-only crash plugin for native iOS. Builds a schema-v2 `CrashReport`, keep
 
 **No networking, signing, or backend credentials.** Your app or SDK owns transport.
 
-**Status:** Sources + CocoaPod in this repo. Trunk name: **`iOSCrashReporter`** (generic `CrashReporter` is already taken on CocoaPods). Swift module remains `CrashReporter` (`import CrashReporter`).
+**Status:** Live on CocoaPods trunk as `iOSCrashReporter` 1.0.0. Git tag `v1.0.0` available. Swift module remains `CrashReporter` (`import CrashReporter`).
 
 ## Install
 
-Git tag (works before / without trunk):
+CocoaPods:
+
+```ruby
+pod 'iOSCrashReporter', '~> 1.0'
+```
+
+Git tag:
 
 ```ruby
 pod 'iOSCrashReporter', :git => 'https://github.com/arsarsars1/ios-crash-reporter.git', :tag => 'v1.0.0'
@@ -18,18 +24,6 @@ Local path (example app):
 
 ```ruby
 pod 'iOSCrashReporter', :path => '../'
-```
-
-CocoaPods trunk (after first `pod trunk push`):
-
-```ruby
-pod 'iOSCrashReporter', '~> 1.0'
-```
-
-Swift Package Manager (after `Package.swift` lands):
-
-```swift
-.package(url: "https://github.com/arsarsars1/ios-crash-reporter.git", from: "1.0.0")
 ```
 
 ## Usage
