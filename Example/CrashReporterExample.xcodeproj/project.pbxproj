@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A513FDD80E5D70D655552E /* Pods_CrashReporterExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD598EFBFD227FDD303A725 /* Pods_CrashReporterExample.framework */; };
+		59AF9C507FA5707FF2ADB976 /* CrashReporterExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB65AF838989DAF37EEFCA4 /* CrashReporterExampleApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E99B27DE9D7C5A4D13A0307 /* Pods-CrashReporterExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashReporterExample.debug.xcconfig"; path = "Target Support Files/Pods-CrashReporterExample/Pods-CrashReporterExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD598EFBFD227FDD303A725 /* Pods_CrashReporterExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashReporterExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		606312356431724EFBED1611 /* Pods-CrashReporterExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashReporterExample.release.xcconfig"; path = "Target Support Files/Pods-CrashReporterExample/Pods-CrashReporterExample.release.xcconfig"; sourceTree = "<group>"; };
+		8CDE188926F852B50B25705A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9660173FA5917DEF07AF6EF6 /* CrashReporterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashReporterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB65AF838989DAF37EEFCA4 /* CrashReporterExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashReporterExampleApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7934E86674C350935D4BAA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A513FDD80E5D70D655552E /* Pods_CrashReporterExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D43FCDB918AF0FED2DAD66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E99B27DE9D7C5A4D13A0307 /* Pods-CrashReporterExample.debug.xcconfig */,
+				606312356431724EFBED1611 /* Pods-CrashReporterExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98AC62410F2D1142F14B3DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FD598EFBFD227FDD303A725 /* Pods_CrashReporterExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FC6979E6544B31FB7261095 = {
+			isa = PBXGroup;
+			children = (
+				B3E87C468D005A45557F2B39 /* CrashReporterExample */,
+				FDFC01413BACC8F1B8325CB6 /* Products */,
+				66D43FCDB918AF0FED2DAD66 /* Pods */,
+				98AC62410F2D1142F14B3DF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E87C468D005A45557F2B39 /* CrashReporterExample */ = {
+			isa = PBXGroup;
+			children = (
+				AEB65AF838989DAF37EEFCA4 /* CrashReporterExampleApp.swift */,
+				8CDE188926F852B50B25705A /* Info.plist */,
+			);
+			path = CrashReporterExample;
+			sourceTree = "<group>";
+		};
+		FDFC01413BACC8F1B8325CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9660173FA5917DEF07AF6EF6 /* CrashReporterExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A8F63872746DD0FAB374E41 /* CrashReporterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38066A397B2C8CDB8DDA7E24 /* Build configuration list for PBXNativeTarget "CrashReporterExample" */;
+			buildPhases = (
+				F8F6CCB73225A3847D68C869 /* [CP] Check Pods Manifest.lock */,
+				DEBEAEBE2F85E4DCACE75CDE /* Sources */,
+				7934E86674C350935D4BAA9B /* Frameworks */,
+				31BA2D6214D6BF06EAFEFB4E /* Resources */,
+				C7A70709FAF38220354A94D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrashReporterExample;
+			productName = CrashReporterExample;
+			productReference = 9660173FA5917DEF07AF6EF6 /* CrashReporterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C056A7031E788010A1649A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 9A98985579BF13A6463526D4 /* Build configuration list for PBXProject "CrashReporterExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FC6979E6544B31FB7261095;
+			productRefGroup = FDFC01413BACC8F1B8325CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A8F63872746DD0FAB374E41 /* CrashReporterExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BA2D6214D6BF06EAFEFB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7A70709FAF38220354A94D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashReporterExample/Pods-CrashReporterExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashReporterExample/Pods-CrashReporterExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashReporterExample/Pods-CrashReporterExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F6CCB73225A3847D68C869 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashReporterExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEBEAEBE2F85E4DCACE75CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59AF9C507FA5707FF2ADB976 /* CrashReporterExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E9BABF7375B1F94EEF32229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		73F477D58D17DC4AAF444618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E99B27DE9D7C5A4D13A0307 /* Pods-CrashReporterExample.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YD3ZL87PM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CrashReporterExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.crashreporter.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DACE6EBD1168B9C84EB882D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606312356431724EFBED1611 /* Pods-CrashReporterExample.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YD3ZL87PM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CrashReporterExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.crashreporter.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE8F089C12A0ADDB2107A3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38066A397B2C8CDB8DDA7E24 /* Build configuration list for PBXNativeTarget "CrashReporterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F477D58D17DC4AAF444618 /* Debug */,
+				9DACE6EBD1168B9C84EB882D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A98985579BF13A6463526D4 /* Build configuration list for PBXProject "CrashReporterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8F089C12A0ADDB2107A3C3 /* Debug */,
+				5E9BABF7375B1F94EEF32229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C056A7031E788010A1649A92 /* Project object */;
+}

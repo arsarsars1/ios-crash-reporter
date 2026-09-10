@@ -1,0 +1,19 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+**/xcuserdata/
+*.moved-aside
+
+# Swift PM
+.build/
+Package.resolved
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Workspace tooling (lives under packages/.cursor, packages/.agents)
+.cursor/
+.agents/
