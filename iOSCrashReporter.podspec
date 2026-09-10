@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description      = 'Capture-only crash reporting: uncaught handler, breadcrumbs, ANR/hang, signal pending files, last-crash buffer, optional host sink. No networking or credentials.'
   s.homepage         = 'https://github.com/arsarsars1/ios-crash-reporter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'arsarsars1' => 'arsarsars1@users.noreply.github.com' }
+  s.author           = { 'Abdul Rehman' => 'arsarsars1@gmail.com' }
   s.source           = { :git => 'https://github.com/arsarsars1/ios-crash-reporter.git', :tag => "v#{s.version}" }
   s.platform         = :ios, '15.0'
   s.swift_version    = '5.9'
